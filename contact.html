@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Planomorf</title>
+  <meta name="description" content="Start a conversation with Planomorf about your project, research question or spatial challenge.">
+  <link rel="canonical" href="https://planomorf.com/contact.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Planomorf home"><img src="assets/logo.png" alt="Planomorf"></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <section class="container contact-wrap">
+    <div class="contact-copy">
+      <h1>Start a Conversation</h1>
+      <p>Tell us about your project, research question or spatial challenge. We’ll get back to you to explore how we can work together.</p>
+    </div>
+    <div>
+      <form action="https://formsubmit.co/info@planomorf.com" method="POST">
+        <input type="hidden" name="_subject" value="New inquiry from planomorf.com">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://planomorf.com/thanks.html">
+        <div class="form-grid">
+          <div class="field"><label for="first-name">First name</label><input id="first-name" name="First name" autocomplete="given-name" required></div>
+          <div class="field"><label for="last-name">Last name</label><input id="last-name" name="Last name" autocomplete="family-name" required></div>
+          <div class="field full"><label for="organisation">Organisation</label><input id="organisation" name="Organisation" autocomplete="organization"></div>
+          <div class="field full"><label for="email">Email</label><input id="email" type="email" name="email" autocomplete="email" required></div>
+          <div class="field full"><label for="message">Message</label><textarea id="message" name="Message" required></textarea></div>
+        </div>
+        <button type="submit">Send message →</button>
+        <p class="form-note">Your message will be sent to info@planomorf.com. The first submission requires a one-time confirmation email.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><img src="assets/logo.png" alt="Planomorf"></div>
+    <div class="footer-links"><span>Istanbul, Türkiye</span><a href="mailto:info@planomorf.com">info@planomorf.com</a><span>© 2026 Planomorf</span></div>
+  </div>
+</footer>
+</body>
+</html>
