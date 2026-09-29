@@ -115,3 +115,15 @@ button:hover { background:#27301e; }
   .form-grid { grid-template-columns:1fr; }
   .field.full { grid-column:auto; }
 }
+.focus-grid {
+  align-items: stretch;
+}
+
+.focus-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.focus-card img {
+  margin-top: auto;
+}
